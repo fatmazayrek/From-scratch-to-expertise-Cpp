@@ -4,7 +4,8 @@
 #include <time.h>
 using namespace std;
 
-//Structures in a structure 
+//I showed you how to use Struct in a Struct 
+
 struct Category{
     string categoryName;
     int numberofProducts;
