@@ -4,7 +4,7 @@
 #include <time.h>
 using namespace std;
 
-//Structures with Pointers
+//I showed you how to use Pointers in a Struct
 
 struct Student
 {

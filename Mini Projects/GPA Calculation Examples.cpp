@@ -4,7 +4,7 @@
 #include <time.h>
 using namespace std;
 
-//GPA Calculation 
+//Let's calculate the GPA in this mini project
 
 string gpa(int examNote){
     if(examNote > 85)
