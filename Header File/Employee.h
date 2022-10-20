@@ -4,7 +4,7 @@
 
 class Emploe{
 public:
-    std::string name;
+    std::string name;  // In header file, string is undefined. Because there is no string variable in C. So we use "#include <string>" and "using namespace std" together.
     int age;
 //    int serialNum;    "ctrl + /" : comment
     std::string department;
