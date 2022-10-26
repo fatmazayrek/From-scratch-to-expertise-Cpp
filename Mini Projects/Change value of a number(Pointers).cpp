@@ -1,5 +1,6 @@
 /* Let's make an simple example about Pointers:
-Input 3 numbers in the function(x, y, z). Function should return 2 result. First one is the sum of the x + y. Second one is the third parameter(z). But this third parameter contains multiplication of the x and y.  */
+Input 3 numbers in the function(x, y, z). Function should return 2 result. First one is the sum of the x + y. Second one is the third parameter(z). 
+But this third parameter contains multiplication of the x and y.  */
 
 #include <iostream>
 
@@ -22,4 +23,5 @@ int main(){
     cout << "sum of a and b: " << sum[0] << endl << "multiplication of a and b: " <<  sum[1] << endl << "last value of c: " << c;
 }
 
-//This Example may help you to understand Pointers topic. If we want to change value of an number then we should use to pointers.
+/*NOTE: This Example may help you to understand Pointers topic. If we want to change value of an number then we should use to pointers. 
+Also, this example is an example of how to return array values in functions.*/
