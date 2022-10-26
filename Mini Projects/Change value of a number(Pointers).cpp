@@ -1,5 +1,5 @@
 /* Let's make an simple example about Pointers:
-Input 3 numbers in the function(x, y, z). Function return 2 result. First one is the sum of the x + y. Second one is the third parameter(z). But this third parameter contains multiplication of the x and y.  */
+Input 3 numbers in the function(x, y, z). Function should return 2 result. First one is the sum of the x + y. Second one is the third parameter(z). But this third parameter contains multiplication of the x and y.  */
 
 #include <iostream>
 
