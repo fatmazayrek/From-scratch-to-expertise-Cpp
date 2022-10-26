@@ -9,7 +9,7 @@ using namespace std;
 int* change(int x, int y, int *z){
     int sum = x + y;
     *z = (x * y);
-    static int returnArray[] = {sum, *z};
+    static int returnArray[] = {sum, *z};  // We should static key word. Because we can't return local array variables.
 
     return returnArray;
 }
