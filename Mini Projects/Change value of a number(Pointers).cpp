@@ -9,7 +9,7 @@ using namespace std;
 int* change(int x, int y, int *z){
     int sum = x + y;
     *z = (x * y);
-    static int returnArray[] = {sum, *z};  /* We should static key word. Because we can't return local array variables.The problem is, that we return the address of a 
+    static int returnArray[] = {sum, *z};  /* We should use static key word. Because we can't return local array variables.The problem is, that we return the address of a 
                                             local variable which is not advised as local variables may not exist in memory after the function call is over */
 
     return returnArray;
