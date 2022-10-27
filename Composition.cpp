@@ -13,7 +13,7 @@ private:
 public:
     BirthDate(int day, int month, int year):m_day(day), m_month(month), m_year(year){}
 
-/*    Another way describe Constructor:
+/*    Another way to describe Constructor:
     BirthDate(int day, int month, int year){
         m_day = day;
         m_month = month;
