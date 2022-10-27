@@ -2,7 +2,8 @@
 using namespace std;
 #include "Employee.h"
 
-// I showed you how to use Overloading in the Class:
+/* I showed you how to use Overloading in the Class:
+- Method overloading can be expressed as defining a method within a class with the same name but different signature (type, number, order of parameters it will accept).*/
 
 class Number{
 private:
