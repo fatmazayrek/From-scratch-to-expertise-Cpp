@@ -19,3 +19,5 @@ public:
 };
 
 #endif // HUMAN_H
+/* Note: If you want to learn more, you can visit the "https://www.onurcanalp.com/2013/12/21/public-private-protected-final-const-extends-ve-static-kavramlari/", 
+"http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/java/ch11/accessmods.htm" */
