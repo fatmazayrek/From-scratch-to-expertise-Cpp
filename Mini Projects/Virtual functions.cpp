@@ -47,4 +47,9 @@ int main()
 
 }
 
-/* Note: Virtual functions are used with polymorphism. To ensure that a class's function is used by other inheriting classes, we define it with the virtual keyword */
+/* Output will be: 
+    print derived class
+    show base class */
+
+/* Note: Virtual functions are used with polymorphism. To ensure that a class's function is used by other inheriting classes, we define it with the virtual keyword.
+Note2: This example was taken from "https://www.geeksforgeeks.org/cpp-polymorphism/" site. For more information, you can visit this link.*/
