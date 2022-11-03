@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Let's make a simple example about Multiple Inheritance with Constructor.
+// I showed you how to use Overriding.
 
 int main(){
     Person p("Fatma", 25);
