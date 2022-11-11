@@ -23,5 +23,10 @@ Person returnFunc(string name, int age){
 int main()
 {
     Person p = returnFunc("Fatma", 25);
-    cout << p.age << p.name;
+    cout << "Name: " <<  p.name << endl << "Age: " << p.age << endl;
 }
+
+/* Output will be: 
+                Name: Fatma
+                Age: 25
+*/
