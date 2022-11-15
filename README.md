@@ -7,3 +7,4 @@ I wanted to share with you the points that I consider important in the "Sıfırd
 Hopefully it benefits your studies.
 
 Good work.
+
