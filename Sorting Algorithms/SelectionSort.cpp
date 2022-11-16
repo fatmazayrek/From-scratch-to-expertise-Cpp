@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//BubleSort Algorithm
+//SelectionSort Algorithm
 
 int *selectionSort(int arr[], int n)
 {
