@@ -1,7 +1,8 @@
 #include <iostream>
-//#define N 5
 
 using namespace std;
+
+//I showed you how to write an array of object
 
 class Person {
 private:
