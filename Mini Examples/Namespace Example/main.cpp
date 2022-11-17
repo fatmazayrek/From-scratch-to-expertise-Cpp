@@ -1,6 +1,4 @@
 #include <iostream>
-#include <stack>
-#include <queue>
 #include "Deneme.cpp"
 
 using namespace std;
