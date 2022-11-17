@@ -5,7 +5,7 @@
 using namespace std;
 template <typename T>
 
-//Linear Search Algorithm --->
+//Binary Search Algorithm --->
 
 int binarySearch(T *arr, T element, int size){
 
