@@ -67,5 +67,10 @@ int main()
 
 
 }
-
-//Note: This Example can help you to understand Binary Search Algorithm and also help to understand using pointers
+/* Output will be:
+        Sorted list is below:
+        2 4 5 7 9 10 15 21 22 41 45 52 78 89 369
+        Enter the element that will search: 22
+        22 is at the 8. index
+*/
+//Note: This Example can help you to understand Binary Search Algorithm and also help to understand using pointers. If you want the binary search to an array, you should sort the array first.
