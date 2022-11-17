@@ -6,7 +6,7 @@
 using namespace std;
 using namespace Deneme;
 
-//Linear Search Algorithm --->
+//I make a simple example how to use namespace structure. Namespace is a structure that holds classes together. In other words, it is a kind of library structure.
 
 int main()
 {
