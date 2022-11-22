@@ -1,9 +1,6 @@
 #include <iostream>
-
-
-
-
 using namespace std;
+
 // In this example, I wanted to explain a few indicators that have caused some confusion regarding Pointers.
 int main()
 {
