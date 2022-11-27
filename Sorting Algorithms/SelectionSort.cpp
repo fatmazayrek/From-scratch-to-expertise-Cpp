@@ -34,10 +34,8 @@ int main()
     int arr[] = { 5, 1, 4, 2, 8, 58, 12, 9, 21, 63, 45, 3};
     int N = sizeof(arr) / sizeof(int);
 
-    int *arr2 = selectionSort(arr, N);
-
     for(int i=0; i<N; i++){
-        cout << arr2[i] << " ";
+        cout << arr[i] << " ";
     }
 }
 
