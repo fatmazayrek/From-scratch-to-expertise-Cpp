@@ -6,7 +6,7 @@ using namespace std;
 
 //SelectionSort Algorithm
 
-int *selectionSort(int arr[], int n)
+void *selectionSort(int arr[], int n)
 {
     int i, j, temp, min_index;
 
@@ -26,7 +26,7 @@ int *selectionSort(int arr[], int n)
             arr[min_index] = temp;
         }
 
-    return arr;
+    return nullptr;
 }
 
 int main()
