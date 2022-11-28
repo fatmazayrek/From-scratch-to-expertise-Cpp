@@ -41,3 +41,45 @@ This expression is the address of an object of type int *. This is expressed as 
 Then, if the address of a variable like ptr above is to be kept in another variable, the type of the variable to hold this address should be int ** 
 
 */
+
+/* Output will be: 
+	x: 10
+	x address: 0x61fe14
+	y: 20
+	y address: 0x61fe10
+	ptr adress: 0x61fe14
+	ptr value: 10
+	pp: 0x61fe08
+	*pp: 0x61fe14
+	**pp: 10
+	2 ---------------------------------------------------
+	x: 100
+	x address: 0x61fe14
+	y: 200
+	y address: 0x61fe10
+	ptr adress: 0x61fe10
+	ptr value: 200
+	pp: 0x61fe08
+	*pp: 0x61fe10
+	**pp: 200
+	3 ---------------------------------------------------
+	x: 100
+	x address: 0x61fe14
+	y: 200
+	y address: 0x61fe10
+	ptr adress: 0x61fe10
+	ptr value: 200
+	pp: 0x61fe08
+	*pp: 0x61fe10
+	**pp: 200
+	4 ----------------------------------------------------
+	x: 100
+	x address: 0x61fe14
+	y: 2000
+	y address: 0x61fe10
+	ptr adress: 0x61fe10
+	ptr value: 2000
+	pp: 0x61fe08
+	*pp: 0x61fe10
+	**pp: 2000
+*/
