@@ -38,7 +38,9 @@ With a definition like this, we define a variable with the name ptr. At program 
 &ptr; 
 This expression is the address of an object of type int *. This is expressed as int ** in C language.
 
-Then, if the address of a variable like ptr above is to be kept in another variable, the type of the variable to hold this address should be int ** 
+Then, if the address of a variable like ptr above is to be kept in another variable, the type of the variable to hold this address should be int **.
+
+Reference: https://necatiergin2019.medium.com/pointer-to-pointer-g%C3%B6sterici-g%C3%B6steren-g%C3%B6sterici-e346918b47d7
 
 */
 
