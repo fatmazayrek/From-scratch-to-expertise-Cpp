@@ -23,7 +23,7 @@ int main()
     *k = y;
     cout << "address of k:" << k << endl << "value of k: " << *k << endl << "address of y: " << &y << endl << "value of y: " << y << endl <<  "value of x: " << x << endl;
 
-/* Output will be:
+/* Output will be: 
     address of k:0x62fe10
     value of k: 9
     address of y: 0x62fe10
