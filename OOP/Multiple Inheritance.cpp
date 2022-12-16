@@ -8,21 +8,34 @@ using namespace std;
 class A{
 public:
     A(){
-        cout << "A is created" << endl;
+        cout << "A was created" << endl;
     }
+    
+    ~A(){
+        cout << "A was deleted" << endl;
+    }
+    
 };
 
 class B : public A{
 public:
     B(){
-        cout << "B is created" << endl;
+        cout << "B was created" << endl;
+    }
+    
+    ~B(){
+        cout << "B was deleted" << endl;
     }
 };
 
 class C: public A, public B{
 public:
     C(){
-        cout << "C is created" << endl;
+        cout << "C was created" << endl;
+    }
+    
+    ~C(){
+        cout << "C was deleted" << endl;
     }
 };
 
@@ -32,8 +45,12 @@ int main(){
 }
 
 /* Ouput will be:
-A is created
-A is created
-B is created
-C is created
+A was created
+A was created
+B was created
+C was created
+C was deleted
+B was deleted
+A was deleted
+A was deleted
 */

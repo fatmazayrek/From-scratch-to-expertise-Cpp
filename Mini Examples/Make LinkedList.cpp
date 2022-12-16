@@ -3,7 +3,7 @@ using namespace std;
 
 /* 
 
-9) Bir program yazınız (Dosya ismi: 9.c veya 9.cpp). Programda bir çiftli linklist kodlayacaksınız:
+9) Bir program yazınız. Programda bir çiftli linklist kodlayacaksınız:
 Programınızda node’larınız bir sayı değeri tutacak. İlk olarak kullanıcıdan listenizin kaç node olacağını girmesini, ardından da sırayla değerleri istemelisiniz. Kullanıcı bir node için değer girdiğinde listeye ekleme yapabilirsiniz.
 
 */
