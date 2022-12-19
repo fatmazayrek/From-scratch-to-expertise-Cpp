@@ -37,6 +37,12 @@ int main()
     for(int i=0; i<N; i++){
         cout << arr[i] << " ";
     }
+    
+    selectionSort(arr, N);
+    
+    for(int i=0; i<N; i++){
+        cout << arr[i] << " ";
+    }
 }
 
 /* Output will be: 1 2 3 4 5 8 9 12 21 45 58 63 */
