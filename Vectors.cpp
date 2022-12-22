@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// In this example, I want to show you how you use "vector" ----->
+// In this example, I want to show you how you can use "vector" ----->
 
 class People{
 private:
