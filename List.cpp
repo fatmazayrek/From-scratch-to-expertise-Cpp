@@ -2,7 +2,7 @@
 #include <list>
 using namespace std;
 
-// In this example, I want to show you how you use "vector" ----->
+// In this example, I want to show you how you can use "list" ----->
 
 class People{
 private:
@@ -66,3 +66,5 @@ int main()
         Name: Katy
         Age: 24
         Marrial Status: 1  */
+
+// Note: There are some differences between list and vector. For example, you can reach an element from back and top in list. You can also add an element after some element in list. 
