@@ -6,8 +6,8 @@ using namespace std;
 
 */
 
-int main(){
-
+int main()
+{
     int array[1000];
     int sum = 0;
 
