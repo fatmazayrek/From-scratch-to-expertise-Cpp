@@ -4,7 +4,8 @@ using namespace std;
 
 // In this example, I want to show you how you use "map" ----->
 
-class People{
+class People
+{
 private:
     string name;
     int age;
@@ -13,13 +14,15 @@ private:
 public:
     People(){}
 
-    void setInfo(string name, int age, bool marrial_status){
+    void setInfo(string name, int age, bool marrial_status)
+    {
         this->name = name;
         this->age = age;
         this->marrial_status = marrial_status;
     }
 
-    void getInfo(){
+    void getInfo()
+    {
         cout << "Name: " << this->name << endl << "Age: " << this->age << endl << "Marrial Status: " << this->marrial_status << endl;
     }
 };
@@ -36,14 +39,15 @@ int main()
     p[4].setInfo("Katy", 24, 1);
     p[0].setInfo("Jenny", 45, 1);
 
-    for(int i=0; i<5; i++){
+    for(int i=0; i<5; i++)
+    {
         people[i] = p[i];
     }
 
-    for(auto items: people){
+    for(auto items: people)
+    {
         items.second.getInfo();
     }
-
 }
 
 /* Output will be:
