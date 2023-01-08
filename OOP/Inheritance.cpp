@@ -2,7 +2,8 @@
 using namespace std;
 
 // I showed you Inheritance in the Class:
-class Team{
+class Team
+{
 public:
     string name;
     int year;
@@ -10,29 +11,34 @@ public:
     void writeInfo();
 };
 
-void Team::writeInfo(){
+void Team::writeInfo()
+{
     cout << "Team name: " << Team::name << endl << "Team year: " << Team::year << endl;
 }
 
 
-class FootballPlayer : public Team{
+class FootballPlayer : public Team
+{
 private:
     string name = "No name";
 public:
     int age;
     int salary;
 
-    void setName(string name){
+    void setName(string name)
+    {
         this->name = name;
     }
 
-    string getName(){
+    string getName()
+    {
         return this->name;
     }
 };
 
 
-int main(){
+int main()
+{
     Team *t;
     FootballPlayer f;
     t = &f;
