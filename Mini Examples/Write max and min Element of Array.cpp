@@ -9,32 +9,31 @@ using namespace std;
 */
 
 //Bu program için selection sort metodu kullanmayı tercih etim. selectionSort() metodu içerisine gönderilen array'i sıralanmış bir şekilde geri dönmektedir. 
-void *selectionSort(int *arr, int n){
-
+void *selectionSort(int *arr, int n)
+{
     int i, j, temp, min_index;
 
-    for (i = 0; i < n-1; i++){
+    for (i = 0; i < n-1; i++)
+    {
+        min_index = i;
 
-            min_index = i;
+        for (j = i+1; j < n; j++){
 
-            for (j = i+1; j < n; j++){
-
-                if (arr[j] < arr[min_index]){
-                    min_index = j;
-                }
+            if (arr[j] < arr[min_index]){
+                min_index = j;
             }
-
-            temp = arr[i];
-            arr[i] = arr[min_index];
-            arr[min_index] = temp;
-
         }
+
+        temp = arr[i];
+        arr[i] = arr[min_index];
+        arr[min_index] = temp;
+    }
 
     return nullptr;
 }
 
-int main(){
-
+int main()
+{
     int array[] = {5, 200, 10, 7, 300, 9, 25, 50, 2, 100};
     int N = sizeof(array) / sizeof(int);
 
