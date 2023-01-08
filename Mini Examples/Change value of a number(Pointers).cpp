@@ -6,7 +6,8 @@ But this third parameter contains multiplication of the x and y.  */
 
 using namespace std;
 
-int* change(int x, int y, int *z){
+int* change(int x, int y, int *z)
+{
     int sum = x + y;
     *z = (x * y);
     static int returnArray[] = {sum, *z};  /* We should use static key word. Because we can't return local array variables.The problem is, that we return the address of a 
@@ -15,7 +16,8 @@ int* change(int x, int y, int *z){
     return returnArray;
 }
 
-int main(){
+int main()
+{
     int a = 10;
     int b = 20;
     int c = 0;
