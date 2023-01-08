@@ -14,27 +14,33 @@ struct Student
     char gender;
 };
 
-void changeNumber(Student *student, int number){
+void changeNumber(Student *student, int number)
+{
     student->number = number;
 }
 
-void changeName(Student *student, string name){
+void changeName(Student *student, string name)
+{
     student->name = name;
 }
 
-void changeLastname(Student *student, string lastname){
+void changeLastname(Student *student, string lastname)
+{
     student->lastname = lastname;
 }
 
-void changeGender(Student *student, char gender){
+void changeGender(Student *student, char gender)
+{
     student->gender = gender;
 }
 
-void readStudent(Student student){
+void readStudent(Student student)
+{
     cout << student.number << ", " << student.name << ", " << student.lastname << ", " << student.gender;
 }
 
-void writeStudent(Student *student){
+void writeStudent(Student *student)
+{
     int number;
     string name, lastname;
     char gender; 
@@ -49,7 +55,8 @@ void writeStudent(Student *student){
     cin >> student->gender;
 }
 
-int main(){
+int main()
+{
     
     Student student1;
 
