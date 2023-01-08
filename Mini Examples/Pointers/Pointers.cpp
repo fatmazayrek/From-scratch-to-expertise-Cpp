@@ -6,7 +6,8 @@ using namespace std;
 
 //This example may help to understand the "Pointer" topic
 
-void writestringlist(string *oneword){
+void writestringlist(string *oneword)
+{
     string *otherword = oneword;
 
     for(; oneword != otherword + 5; oneword++){
@@ -14,7 +15,8 @@ void writestringlist(string *oneword){
     }
 }
 
-int main(){
+int main()
+{
     string words[] = {"hello" , "world", "car", "home", "cat"};
 
     writestringlist(words);
