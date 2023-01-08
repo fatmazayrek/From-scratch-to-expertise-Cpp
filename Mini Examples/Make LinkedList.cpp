@@ -8,7 +8,8 @@ Programınızda node’larınız bir sayı değeri tutacak. İlk olarak kullanı
 
 */
 
-struct Node{
+struct Node
+{
 
     int data;
     struct Node* prev;
@@ -17,7 +18,8 @@ struct Node{
 };
 
 //Başlangıç node'unu oluşturmak için:
-Node* newNode(int val){
+Node* newNode(int val)
+{
 
     Node *temp = new Node;
     temp->data = val;
@@ -86,7 +88,8 @@ void reverseList(Node** head)
     reversePrintList(*head);
 }
 
-int main(){
+int main()
+{
 
     int nodeNum, val, i=1;
 
