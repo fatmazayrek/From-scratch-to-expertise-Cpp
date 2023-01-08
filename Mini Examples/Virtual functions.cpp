@@ -5,7 +5,8 @@ using namespace std;
 
 // Let's make a simple example about Virtual Function.
 
-class base {
+class base 
+{
 public:
     virtual void print()
     {
@@ -20,7 +21,8 @@ public:
     }
 };
 
-class derived : public base {
+class derived : public base 
+{
 public:
     void print()
     {
