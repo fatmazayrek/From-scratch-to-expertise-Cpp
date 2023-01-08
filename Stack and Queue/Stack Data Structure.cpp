@@ -5,7 +5,8 @@ using namespace std;
 
 //I showed you how to use "Stack" data structure
 
-class Person {
+class Person
+{
 private:
     string name, surname;
 
@@ -31,7 +32,8 @@ int main()
 
     stack<Person> people;
 
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++)
+    {
         cout << "Enter name: ";
         cin >> name;
         cout << "Enter surname: ";
@@ -41,7 +43,8 @@ int main()
     }
 
     // printing contents of array
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++)
+    {
         per2[i] = people.top();
         people.pop();
         per2[i].print();
