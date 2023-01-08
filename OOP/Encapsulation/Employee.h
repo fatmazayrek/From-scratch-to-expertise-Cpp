@@ -2,7 +2,8 @@
 #define EMPLOYEE_H
 #include <string>
 
-class Emploe{
+class Emploe
+{
     private:
         int serialNumber;
 
