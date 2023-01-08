@@ -4,32 +4,37 @@ using namespace std;
 
 // I showed you how to use Constructor in the Class:
 
-class Animal{
+class Animal
+{
 private:
     string m_name;
     int m_leg;
     string m_family;
 
 public:
-    Animal(){
+    Animal()
+    {
         this->m_name = "null";
         this->m_leg = 0;
         this->m_family = "null";
     }
 
-    void updateInfo(string name, int leg, string family){
+    void updateInfo(string name, int leg, string family)
+    {
         this->m_name = name;
         this->m_leg = leg;
         this->m_family = family;
     }
 
-    void getInfo(){
+    void getInfo()
+    {
         cout << "name: " << this->m_name << endl << "leg: " << this->m_leg << endl << "family: " << this->m_family << endl;
     }
 
 };
 
-int main(){
+int main()
+{
     Animal animals[3];
     Animal a1;
     animals[0] = a1;
@@ -42,13 +47,15 @@ int main(){
     int leg;
     string family;
 
-    for(int i=0; i<3; i++){
+    for(int i=0; i<3; i++)
+    {
         cout << "Update informations about classes: " << endl;
         cin >> name >> leg >> family ;
         animals[i].updateInfo(name, leg, family);
     }
 
-    for(int i=0; i<3; i++){
+    for(int i=0; i<3; i++)
+    {
         animals[i].getInfo();
     }
 }
