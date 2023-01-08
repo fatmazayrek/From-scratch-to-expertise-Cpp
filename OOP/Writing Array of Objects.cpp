@@ -4,7 +4,8 @@ using namespace std;
 
 //I showed you how to write an array of object
 
-class Person {
+class Person
+{
 private:
     string name, surname;
 
@@ -35,7 +36,8 @@ int main()
 
     // calling constructor
     // for each index of array
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++) 
+    {
         cout << "Enter name: ";
         cin >> name;
         cout << "Enter surname: ";
@@ -44,7 +46,8 @@ int main()
     }
 
     // printing contents of array
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++) 
+    {
         per[i].print();
     }
 }
