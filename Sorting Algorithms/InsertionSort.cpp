@@ -34,7 +34,8 @@ int main()
 
     int *arr2 = insertionSort(arr, N);
 
-    for(int i=0; i<N; i++){
+    for(int i=0; i<N; i++)
+    {
         cout << arr2[i] << " ";
     }
 }
