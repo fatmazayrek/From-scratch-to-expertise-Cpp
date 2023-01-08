@@ -4,7 +4,8 @@ using namespace std;
 
 // I showed you how to use Composition in the Class:
 
-class BirthDate{
+class BirthDate
+{
 private:
     int m_day;
     int m_month;
@@ -20,12 +21,14 @@ public:
         m_year = year;
     }*/
 
-    void info(){
+    void info()
+    {
         cout << "Day: " << m_day << endl << "Month: " << m_month << endl << "Year: " << m_year << endl;
     }
 };
 
-class Person{
+class Person
+{
 private:
     string name;
     BirthDate birthdate;
@@ -33,14 +36,16 @@ private:
 public:
     Person(string name, BirthDate birtdate): name(name), birthdate(birtdate){}
 
-    void info(){
+    void info()
+    {
         cout << "Person's name: " << name << endl;
         cout << "Person's birthdate: " ;
         birthdate.info();
     }
 };
 
-int main(){
+int main()
+{
     BirthDate birthdate(26, 07, 1997);
     Person p("Fatma", birthdate);
 
