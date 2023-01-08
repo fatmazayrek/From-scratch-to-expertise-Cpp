@@ -5,7 +5,8 @@ using namespace std;
 
 // I showed you how to use Overriding.
 
-int main(){
+int main()
+{
         Person p("Fatma", 25);
 
         p.Human::getInfo();
