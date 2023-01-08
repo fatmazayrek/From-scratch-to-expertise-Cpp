@@ -7,10 +7,12 @@ template <typename T>
 
 //Linear Search Algorithm --->
 
-int linearSearch(T arr[], T element, int size){
-
-    for(int i=0; i<size; i++){
-        if(arr[i]==element){
+int linearSearch(T arr[], T element, int size)
+{
+    for(int i=0; i<size; i++)
+    {
+        if(arr[i]==element)
+        {
             return i;
         }
     }
@@ -23,16 +25,19 @@ int main()
     int element;
     int size = sizeof(arr) / sizeof(int);
 
-    while(true){
+    while(true)
+    {
         cout << "Please enter the number that will search: ";
         cin >> element;
 
         int result = linearSearch(arr, element, size);
 
-        if(result != -1){
+        if(result != -1)
+        {
             cout << element << " is found at " << result << ". index" ;
         }
-        else{
+        else
+        {
             cout << element << "is not found at this array.";
         }
     }
