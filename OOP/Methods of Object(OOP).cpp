@@ -3,47 +3,57 @@ using namespace std;
 
 //I showed you using the methods in any class
 
-class Employee{
+class Employee
+{
     public:
         string name;
         string department;
         int age; 
         int serialnumber;
 
-        string getName(){
+        string getName()
+        {
             return name;
         }
 
-        void setName(string newName){
+        void setName(string newName)
+        {
             name = newName;
         }
 
-        string getDepartment(){
+        string getDepartment()
+        {
             return department;
         }
 
-        void setDepartment(string newDepartment){
+        void setDepartment(string newDepartment)
+        {
             department = newDepartment;
         }
 
-        int getAge(){
+        int getAge()
+        {
             return age;
         }
 
-        void setAge(int newAge){
+        void setAge(int newAge)
+        {
             age = newAge;
         }        
 
-        int getSerial(){
+        int getSerial()
+        {
             return serialnumber;
         }
 
-        void setSerial(int newSerial){
+        void setSerial(int newSerial)
+        {
             serialnumber = newSerial;
         }
 };
 
-int main(){
+int main()
+{
     Employee e = {"Fatma", "Software", 25, 458};
     cout << e.getName() << " " << e.getAge() << " " << e.getDepartment() << " " << e.getSerial() << endl;
     e.setName("Ali");
