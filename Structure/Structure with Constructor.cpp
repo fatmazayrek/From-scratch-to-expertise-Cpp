@@ -3,22 +3,26 @@ using namespace std;
 
 // I showed you how can you define a Constructor in a Structure with simple example
 
-struct Student{
+struct Student
+{
     int age;
     string name;
     int number;
 
-    Student(){
+    Student()
+    {
         age = 25;
         name = "Fatttma";
     }
 
-    string getName(){
+    string getName()
+    {
         return name;
     }
 };
 
-int main(){
+int main()
+{
     Student s ; 
     cout << s.getName();
 }
