@@ -6,7 +6,8 @@ using namespace std;
 
 //I showed you how to use Struct in a Struct 
 
-struct Category{
+struct Category
+{
     string categoryName;
     int numberofProducts;
 };
@@ -28,7 +29,8 @@ struct PlatformWithPointers
 };
 
 
-int main(){
+int main()
+{
     Category categories = {"Makarna", 250};
     Category c2 = {"Mercimek", 300};
     Category c3 = {"Tavuk", 520};
