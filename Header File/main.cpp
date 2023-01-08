@@ -3,7 +3,8 @@
 
 using namespace std;
 
-void f(int a, int b, int c){
+void f(int a, int b, int c)
+{
     cout << "a:" << a << "b:" << b << "c:" << c;
 }
 
