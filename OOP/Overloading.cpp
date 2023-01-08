@@ -5,7 +5,8 @@ using namespace std;
 /* I showed you how to use Overloading in the Class:
 - Method overloading can be expressed as defining a method within a class with the same name but different signature (type, number, order of parameters it will accept).*/
 
-class Number{
+class Number
+{
 private:
     int value;
 
@@ -13,11 +14,13 @@ public:
     Number(){};
 
     //Overloading
-    Number(int a){
+    Number(int a)
+    {
         value = a;
     }
 
-    Number sum(Number a, Number b){
+    Number sum(Number a, Number b)
+    {
 
         Number summation;
 
@@ -26,7 +29,8 @@ public:
         return summation;
     }
 
-    Number operator+(Number a){
+    Number operator+(Number a)
+    {
 
         Number t;
 
@@ -35,13 +39,15 @@ public:
         return t;
     }
 
-    int getValue(){
+    int getValue()
+    {
         return value;
     }
 
 };
 
-int main(){
+int main()
+{
     Number n1(10);
     Number n2(20);
     Number n3;
