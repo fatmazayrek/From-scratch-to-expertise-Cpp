@@ -5,7 +5,8 @@ using namespace std;
 
 // Let's make a simple example about Inheritance with Constructor.
 
-int main(){
+int main()
+{
 
     Person p("Fatma", 25);
 
