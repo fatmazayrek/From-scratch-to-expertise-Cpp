@@ -17,7 +17,8 @@ g. float
 
 //Not: Bu sonuçlar 64 bit'lik işletim sistemine aittir.
 
-int main(){
+int main()
+{
     cout << "char veri tipi ------> " <<  endl << "Byte: " << sizeof(char) << endl << "Bit: " << sizeof(char)*8 << endl << "Max: " << CHAR_MAX << endl << "Min: " << CHAR_MIN << endl;
 
     cout << endl << "Unsigned char veri tipi ------> " <<  endl << "Byte: " << sizeof(unsigned char) << endl << "Bit: " << sizeof(unsigned char)*8 << endl << "Max: " << UCHAR_MAX << endl << "Min: " << 0 << endl;    //Unsigned char veri tipi unsigned olmasından dolayı minimum değer olarak '0' değerini alır. 
