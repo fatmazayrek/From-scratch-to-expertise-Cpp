@@ -6,7 +6,8 @@ using namespace std;
 
 //I showed you how to use "Queues" data structure
 
-class Person {
+class Person 
+{
 private:
     string name, surname;
 
@@ -34,7 +35,8 @@ int main()
     string name, surname;
     queue<Person> people;
 
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++)
+    {
         cout << "Enter name: ";
         cin >> name;
         cout << "Enter surname: ";
@@ -47,7 +49,8 @@ int main()
     Person *per2 = new Person[size];
 
     // printing contents of array
-    for (int i = 0; i <size; i++) {
+    for (int i = 0; i <size; i++)
+    {
         per2[i] = people.front();
         people.pop();
         per2[i].print();
