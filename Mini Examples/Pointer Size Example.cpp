@@ -14,7 +14,8 @@ d. unsigned int *
 
 //Not: Bu sonuçlar 64 bit'lik işletim sistemine aittir.
 
-int main(){
+int main()
+{
     cout << "char* tipi ------> " <<  endl << "Byte: " << sizeof(char*) << endl << "Bit: " << sizeof(char*)*8 << endl;
 
     cout << endl << "Unsigned char* tipi ------> " <<  endl << "Byte: " << sizeof(unsigned char*) << endl << "Bit: " << sizeof(unsigned char*)*8 << endl;
