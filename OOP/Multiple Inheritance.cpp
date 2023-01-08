@@ -5,41 +5,51 @@ using namespace std;
 
 // Let's make a simple example about Multiple Inheritance with Constructor.
 
-class A{
+class A
+{
 public:
-    A(){
+    A()
+    {
         cout << "A was created" << endl;
     }
     
-    ~A(){
+    ~A()
+    {
         cout << "A was deleted" << endl;
     }
     
 };
 
-class B : public A{
+class B : public A
+{
 public:
-    B(){
+    B()
+    {
         cout << "B was created" << endl;
     }
     
-    ~B(){
+    ~B()
+    {
         cout << "B was deleted" << endl;
     }
 };
 
-class C: public A, public B{
+class C: public A, public B
+{
 public:
-    C(){
+    C()
+    {
         cout << "C was created" << endl;
     }
     
-    ~C(){
+    ~C()
+    {
         cout << "C was deleted" << endl;
     }
 };
 
-int main(){
+int main()
+{
 
     C c;
 }
