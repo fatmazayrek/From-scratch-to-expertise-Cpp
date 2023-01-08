@@ -3,32 +3,35 @@ using namespace std;
 
 // I showed you that how to use virtual functions ---->
 
-class Animal{
+class Animal
+{
 public:
 
-    virtual void eat(){
+    virtual void eat()
+    {
         cout << "Animals eat generic food" << endl;
     }
 };
 
 
-class Cat: public Animal{
+class Cat: public Animal
+{
 public:
 
-    void eat(){
+    void eat()
+    {
         cout << "Cats eat Rat" << endl;
     }
 };
 
-void what(Animal *x){
-
+void what(Animal *x)
+{
     x->eat();
-
 }
 
 
-int main(){
-
+int main()
+{
     Animal *animal = new Animal();
     Cat *cat = new Cat();
 
