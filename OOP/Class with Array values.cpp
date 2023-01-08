@@ -2,7 +2,8 @@
 #include <iostream>
 using namespace std;
 
-class Student{
+class Student
+{
     private:
     int *numbers;
     string name;
@@ -12,7 +13,8 @@ class Student{
         numbers = new int[number];
     }
 
-    void setnumbers(int nnumbers[]){
+    void setnumbers(int nnumbers[])
+    {
         numbers = nnumbers;
     }
 
@@ -22,7 +24,8 @@ class Student{
 
 };
 
-int main(){
+int main()
+{
     Student s(5);
     
     int numbs[] = {10, 25, 14, 14};
@@ -30,7 +33,8 @@ int main(){
     s.setnumbers(numbs);
     int si = sizeof(numbs) / sizeof(int);
 
-    for(int i=0; i<si; i++){
+    for(int i=0; i<si; i++)
+    {
         cout << s.getnumbers()[i]<< endl;
     }
 
