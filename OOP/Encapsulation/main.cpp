@@ -2,14 +2,16 @@
 using namespace std;
 #include "Employee.h"
 
-int main(){
+int main()
+{
     Emploe *e = new Emploe("Fatma", 25, "Software");
     int serialNum;
 
     cout << "Pls Enter a number: ";
     cin >> serialNum;
 
-    if(serialNum > 0){
+    if(serialNum > 0)
+    {
         e->setserialNumber(serialNum);
     }
 
