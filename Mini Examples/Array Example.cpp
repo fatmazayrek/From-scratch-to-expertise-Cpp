@@ -32,7 +32,8 @@ int *insertionSort(int *arr, int n)
     return arr;
 }
 
-void findNearestNum(int a, int b, int c){
+void findNearestNum(int a, int b, int c)
+{
 
     //İlk olarak herbirinin 500 ile arasındaki farkı bulmak istedim.
     int a_dif = abs(500 - a);
@@ -67,7 +68,8 @@ void findNearestNum(int a, int b, int c){
 }
 
 //Bir önceki yöntem biraz uzun versiyonuydu şimdi ikinci yöntem olan: findNearest_2() metoduna bakalım.
-void findNearest_2(int a, int b, int c){
+void findNearest_2(int a, int b, int c)
+{
    
    //Tüm değerleri bir array içerisine attım. 
     int num[3] = {a, b, c};
@@ -87,7 +89,8 @@ void findNearest_2(int a, int b, int c){
     cout << "500'e en yakin deger: " << nearestNum << " olarak bulunur." << endl;
 }
 
-int main(){
+int main()
+{
 
     //Birinci yöntem örnekleri: 
     findNearestNum(400, 450, 490);
