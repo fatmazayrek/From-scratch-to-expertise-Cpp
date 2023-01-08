@@ -1,7 +1,9 @@
 #include <iostream>
-namespace Deneme{
+namespace Deneme
+{
 
-    class Deneme1{
+    class Deneme1
+    {
     public:
         int a;
         int b;
