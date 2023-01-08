@@ -6,7 +6,8 @@ using namespace std;
 
 //Let's calculate the GPA in this mini project
 
-string gpa(int examNote){
+string gpa(int examNote)
+{
     if(examNote > 85)
         return "AA";
     
@@ -23,11 +24,13 @@ string gpa(int examNote){
         return "FF";
 }
 
-int main(){
+int main()
+{
 
     int Midterm, Final, Average;
 
-    while(true){
+    while(true)
+    {
         cout << "Input Midterm Note: ";
         cin >> Midterm ;
         cout << endl;
@@ -36,7 +39,6 @@ int main(){
 
         Average = Midterm * 0.4 + Final * 0.6;
         cout << "Your gpa is: " << gpa(Average) << endl;
-
     }
 }
 
