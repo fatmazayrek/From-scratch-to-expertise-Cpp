@@ -14,7 +14,8 @@ b. 0xCAFE değerini 0xCAF olacak şekilde modifiye ediniz
 
 */
 
-void a_controlLSB(int val){
+void a_controlLSB(int val)
+{
 
     int controlBit = 1;
     int control = 1 & val;   
@@ -27,12 +28,14 @@ void a_controlLSB(int val){
     }
 }
 
-int b_modify(int val){
+int b_modify(int val)
+{
 
     return val >> 4;
 }
 
-int main(){
+int main()
+{
     ostringstream s;
 
     int val = 0xCAFE;
