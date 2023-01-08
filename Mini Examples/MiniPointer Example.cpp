@@ -12,7 +12,8 @@ c. Pointer’ı bir arttırınız (Örnek: p++;). Pointer’ın gösterdiği adr
 
 */
 
-int main(){
+int main()
+{
 
     int my_value = 123;
 
