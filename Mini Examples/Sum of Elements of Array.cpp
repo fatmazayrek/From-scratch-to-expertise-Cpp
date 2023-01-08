@@ -11,7 +11,8 @@ int main()
     int array[1000];
     int sum = 0;
 
-    for(int i=0; i<1000; i++){
+    for(int i=0; i<1000; i++)
+    {
         array[i] = i;
         sum += array[i];
     }
