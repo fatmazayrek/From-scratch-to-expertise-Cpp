@@ -4,27 +4,28 @@ using namespace std;
 
 // Let's make a simple example about "namespace and Scopes"
 
-namespace Math{
+namespace Math
+{
     double pi = 3.14;
 
-    int sum(int a, int b){
-
+    int sum(int a, int b)
+    {
         return a+ b;
     }
 
-    int multiplication(int a, int b){
-
+    int multiplication(int a, int b)
+    {
         return a * b;
     }
 
-    int substract(int a, int b){
-
+    int substract(int a, int b)
+    {
         return a- b;
     }
-
 }
 
-int main(){
+int main()
+{
     using namespace Math;
     int number1, number2;
 
@@ -36,7 +37,6 @@ int main(){
     cout << "sumation of " << number1 << " and " << number2 << " is: " << sum(number1, number2) << endl ;
     cout << "multiplication of " << number1 << " and " << number2 << " is: " << multiplication(number1, number2) << endl ;
     cout << "substraction of " << number1 << " and " << number2 << " is: " << substract(number1, number2) << endl ;
-
 }
 
 /* Output will be:
