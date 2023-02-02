@@ -37,10 +37,6 @@ int main()
     t2.detach();
 
     std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-
-    //std::thread::join() waits for other thread finish
-//    t1.join();
-//     t2.join(); 
 }
 
 /* Output will be: 
