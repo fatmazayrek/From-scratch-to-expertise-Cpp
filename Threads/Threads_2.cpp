@@ -24,14 +24,13 @@ int main()
     std::cout << "Before starting the thread" << std::endl;
 
     std::thread my_thread(&threadFunction, 10); 
-    // std::thread my_thread2(&threadFunction2, 56);
 
     std::cout << "After call thread" << std::endl;
 
     std::this_thread::sleep_for (std::chrono::seconds(40));
 
     my_thread.detach();
-    // my_thread2.detach();
+
     std::cout << "Doing task in main function" << std::endl;
 }
 
