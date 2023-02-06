@@ -42,3 +42,45 @@ int main()
 
     std::cout << "------ Ending of the main function --- " << std::endl;
 }
+
+/* Output will be: 
+        ------ Adding threads into the threads set -----
+        ------ Adding was completed ---------
+        --- Starting Thread with ID: 0----
+        0. Topic
+        1. Topic
+        2. Topic
+        3. Topic
+        4. Topic
+        5. Topic
+        6. Topic
+        7. Topic
+        8. Topic
+        9. Topic
+        --- Ending Thread with ID: 0-----
+        --- Starting Thread with ID: 1----
+        0. Topic
+        1. Topic
+        2. Topic
+        3. Topic
+        4. Topic
+        5. Topic
+        6. Topic
+        7. Topic
+        8. Topic
+        9. Topic
+        --- Ending Thread with ID: 1-----
+        --- Starting Thread with ID: 2----
+        0. Topic
+        1. Topic
+        2. Topic
+        3. Topic
+        4. Topic
+        5. Topic
+        6. Topic
+        7. Topic
+        8. Topic
+        9. Topic
+        --- Ending Thread with ID: 2-----
+        ------ Ending of the main function --- 
+*/
