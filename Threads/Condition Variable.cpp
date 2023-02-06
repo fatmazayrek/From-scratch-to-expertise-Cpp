@@ -47,5 +47,19 @@ int main()
     return 0;
 }
 
+/* Output will be:
+        10 threads ready to race...
+        Thread id: 0
+        Thread id: 1
+        Thread id: 2
+        Thread id: 3
+        Thread id: 4
+        Thread id: 5
+        Thread id: 6
+        Thread id: 7
+        Thread id: 8
+        Thread id: 9
+*/
+
 /* Note: If you want to lean more details about std::condition_variable, you can visit this link https://cplusplus.com/reference/condition_variable/condition_variable/
 */
