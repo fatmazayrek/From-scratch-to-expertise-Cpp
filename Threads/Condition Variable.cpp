@@ -46,3 +46,6 @@ int main()
 
     return 0;
 }
+
+/* Note: If you want to lean more details about std::condition_variable, you can visit this link https://cplusplus.com/reference/condition_variable/condition_variable/
+*/
