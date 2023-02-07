@@ -54,3 +54,34 @@ int main()
     t2.detach();
     t3.detach();
 }
+/* Output will be:
+        ----------- Adding is ending ----------
+        --------- Writing is starting ---------1
+        1. element: 5
+        2. element: 9
+        3. element: 4
+        4. element: 1
+        5. element: 9
+        6. element: 10
+        7. element: 5
+        8. element: 2
+        9. element: 1
+        10. element: 6
+        11. element: 10
+        12. element: 4
+        ----------- Writing is ending ----------1
+        --------- Writing is starting ---------2
+        1. element: 5
+        2. element: 9
+        3. element: 4
+        4. element: 1
+        5. element: 9
+        6. element: 10
+        7. element: 5
+        8. element: 2
+        9. element: 1
+        10. element: 6
+        11. element: 10
+        12. element: 4
+        ----------- Writing is ending ----------2
+        */
