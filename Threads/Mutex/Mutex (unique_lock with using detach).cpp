@@ -5,6 +5,7 @@
 #include <time.h>
 #include <vector>
 
+// In this example, I created two threads which use mutex independently. One thread create an unique id and push this is into the vector. Other thread writes on the terminal.
 std::vector<int> ids;
 std::mutex mtx;
 
@@ -52,8 +53,4 @@ int main()
     t1.detach();
     t2.detach();
     t3.detach();
-
-    // t1.join();
-    // t2.join();
-
 }
