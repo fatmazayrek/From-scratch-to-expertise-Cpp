@@ -29,9 +29,9 @@ void createThread()
 
 void setId()
 {
-    srand(time(NULL));
-
     std::unique_lock<std::mutex> lck(mtx);
+    
+    srand(time(NULL));
 
     id = rand() % 10 + 1;  //id number between 1-10
 
@@ -48,10 +48,14 @@ int main()
 
     std::thread t0(&setId);
     std::thread t1(&createThread);
-
-    t0.join();
+    
     t1.join();
-
+    t0.join();
 }
 
-    
+/* Output will be: 
+        main function
+        Waiting for data
+        ID was created as: 6
+        Thread with id: 60 was created
+*/
